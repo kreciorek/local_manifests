@@ -11,7 +11,6 @@
   <!-- LineageOS repos -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-21"/>
 
-  <remove-project name="Galaxy-MSM8916/android_hardware_qcom_audio"/>
 
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-21"/>
 
@@ -21,7 +20,7 @@
   
   
   
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+
   <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-21.0-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-21.0-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-21.0-caf-msm8916" />
