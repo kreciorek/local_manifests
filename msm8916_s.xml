@@ -11,7 +11,7 @@
   <!-- LineageOS repos -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-21"/>
 
-  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+  <remove-project name="Galaxy-MSM8916/android_hardware_qcom_audio"/>
 
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-21"/>
 
