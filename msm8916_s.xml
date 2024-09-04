@@ -3,11 +3,12 @@
   <!-- TWRP source code -->
 <!--  <project path="bootable/recovery-twrp" name="TeamWin/android_bootable_recovery" remote="github" revision="android-11"/> -->
   <!-- Remove this thing -->
+  <remove-project name="LineageOS-UL/android_device_qcom_sepolicy"/>
+  <remove-project name="LineageOS-UL/android_system_tools_dtbtool"/>
   <remove-project name="LineageOS-UL/android_hardware_qcom_audio"/>
   <remove-project name="LineageOS-UL/android_hardware_qcom_media"/>
   <remove-project name="LineageOS-UL/android_hardware_qcom_display"/>
-  <remove-project name="LineageOS-UL/android_device_qcom_sepolicy"/>
-  <remove-project name="LineageOS-UL/android_system_tools_dtbtool"/>
+
   
   <!-- Samsung MSM8916 common repos -->
   <project path="device/samsung/msm8916-common" name="kreciorek/android_device_samsung_msm8916-common" remote="github" revision="lineage-21"/>
