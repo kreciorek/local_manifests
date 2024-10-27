@@ -2,7 +2,7 @@
 <manifest>
   <!-- Samsung MSM8916 common repos -->
   <project path="device/samsung/msm8916-common" name="kreciorek/android_device_samsung_msm8916-common" remote="github" revision="lineage-18.1"/>
-  <project path="kernel/samsung/msm8916" name="Gabboxl/android_kernel_samsung_msm8916" remote="github" revision="lineage-18.1"/>
+  <project path="kernel/samsung/msm8916" name="Gabboxl/android_kernel_samsung_msm8916" remote="github" revision="lineage-18.1-rebase"/>
   <project path="vendor/samsung" name="Gabboxl/proprietary_vendor_samsung" remote="github" revision="lineage-18.1exp"/>
 
   <!-- LineageOS repos -->
