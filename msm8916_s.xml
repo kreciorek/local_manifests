@@ -9,11 +9,11 @@
   <project path="vendor/samsung" name="Gabboxl/proprietary_vendor_samsung" remote="github" revision="lineage-19.1"/>
 
   <!-- LineageOS repos -->
-  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-21"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-19.1"/>
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
 
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-21"/>
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-19.1"/>
 
   <!-- safetynet fix -->
 <!--  <remove-project name="platform/system/security"/>
@@ -27,9 +27,9 @@
   <project path="hardware/qcom-caf/msm8916/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-21.0-caf-msm8916" />
   
   
-  <project path="device/qcom/sepolicy-legacy" name="LineageOS-UL/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-21-legacy" />
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS-UL/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-19.1-legacy" />
   
-  <project path="system/tools/dtbtool" name="LineageOS-UL/android_system_tools_dtbtool"  revision="lineage-21"/>
+  <project path="system/tools/dtbtool" name="LineageOS-UL/android_system_tools_dtbtool"  revision="lineage-19.1"/>
   
 
 
