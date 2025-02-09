@@ -25,17 +25,16 @@
 <!--  <remove-project name="platform/system/security"/>
   <project path="system/security" name="Gabboxl/android_system_security" groups="pdk" remote="github" revision="rvc" /> -->
   
-  
-  
 
-  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-21.0-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-21.0-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-21.0-caf-msm8916" />
+  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-msm8916" />
   
   
-  <project path="device/qcom/sepolicy-legacy" name="LineageOS-UL/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-21.0-legacy" />
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" revision="lineage-16.0" />
   
-  <project path="system/tools/dtbtool" name="LineageOS-UL/android_system_tools_dtbtool"  revision="lineage-21.0"/>
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool"  revision="lineage-18.1"/>
   
 
 
